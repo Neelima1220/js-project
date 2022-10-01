@@ -6,7 +6,6 @@ const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
 // generate OTP
-
 function generateOtp() {
   const x = '0123456789';
   const otp = [];
@@ -18,10 +17,6 @@ function generateOtp() {
   return otp.join('');
 }
 
-generateOtp();
-generateOtp();
-generateOtp();
-generateOtp();
 generateOtp();
 generateOtp();
 generateOtp();
